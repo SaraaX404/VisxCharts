@@ -1,0 +1,62 @@
+{
+  "name": "covid_19",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.40",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@visx/annotation": "^3.3.0",
+    "@visx/axis": "^3.3.0",
+    "@visx/event": "^3.3.0",
+    "@visx/geo": "file:visx/responsive@visx/scale",
+    "@visx/gradient": "^3.3.0",
+    "@visx/grid": "^3.3.0",
+    "@visx/group": "^3.3.0",
+    "@visx/legend": "^3.3.0",
+    "@visx/mock-data": "^3.3.0",
+    "@visx/responsive": "^3.3.0",
+    "@visx/scale": "^3.3.0",
+    "@visx/shape": "^3.3.0",
+    "@visx/tooltip": "^3.3.0",
+    "@visx/vendor": "^3.3.0",
+    "install": "^0.13.0",
+    "npm": "^9.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-use-measure": "^2.1.1",
+    "styled-components": "^6.0.7",
+    "topojson-client": "^3.1.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
